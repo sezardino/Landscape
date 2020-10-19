@@ -1,0 +1,26 @@
+.gallery {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  &__button {
+    margin:  auto;
+    margin-top: 50px;
+  }
+}
+
+@media(min-width: $decstop-width) {
+  .gallery {
+    &__wrapper {
+      grid-template-columns: 517px 366px 517px;
+      grid-template-rows: 359px;
+      gap: 20px;
+      img {
+        cursor: pointer;
+      }
+    }
+    &__button {
+      margin-top: 80px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.services {
+  padding: 50px 0;
+  &__slider {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: $decstop-width) {
+  .services {
+    padding: 55px 0 135px 0;
+    &__slider {
+      margin-top: 140px;
+    }
+  }
+}

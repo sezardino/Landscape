@@ -1,0 +1,35 @@
+.hamburger {
+  span {
+    display: block;
+    width: 27px;
+    height: 1.5px;
+    background-color: $black;
+    border-radius: 1px;
+    transition: 1s all;
+    &:nth-child(2) {
+      margin: 7px 0;
+    }
+  }
+}
+
+.hamburger-active {
+  span {
+    &:nth-child(1) {
+      transform: rotate(45deg);
+    }
+    &:nth-child(2) {
+      transform: rotate(-45deg);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    &:nth-child(3) {
+      display: none;
+    }
+  }
+}
+
+@media(min-width: $decstop-width) {
+  .hamburger {
+    display: none;
+  }
+}

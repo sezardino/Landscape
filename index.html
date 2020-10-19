@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landscape</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <div class="header__hamburger hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__logo logo">
+                <img src="./img/content/logo.png" alt="logotype" class="logo__img">
+            </div>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="№gallery" class="nav__link">Проекты</a></li>
+                    <li class="nav__item"><a href="#price" class="nav__link">Цены</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+                    <li class="nav__social"><a href="tel:#" class="nav__phone">+375 29 885 74 21</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="container">
+                <h1 class="home__title">Ландшафтный <br> дизайн</h1>
+                <p class="home__text">
+                    Создание и реализация уникальных дизайн-проектов приусадебных
+                    участков по индивидуальным заказам.
+                </p>
+                <a href="#contacts" class="button">заказать проект</a>
+                <p class="home__img">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./img/content/home/home-desc.webp 1x, ./img/content/home/home-desc-2x.webp 2x" type="image/webp">
+                        <source media="(min-width: 1200px)" srcset="./img/content/home/home-desc.png 1x, ./img/content/home/home-desc-2x.png 2x">
+                        <source srcset="./img/content/home/home-mob.webp, ./img/content/home/home-mob-2x.webp 2x" type="image/webp">
+                        <img src="./img/content/home/home-mob.png" srcset="./img/content/home/home-mob-2x.png 2x" alt="green hand">
+                    </picture>
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="services__title titles">Мы предлагаем</h2>
+                <div class="services__slider slider">
+                    <div class="slider__inner">
+                        <div class="slider__slide">
+                            <p class="img__wr">
+                                <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                    <path d="M37.5996 25.6632L35.3072 19.0015L30.9102 23.5671L37.5996 25.6632Z" fill="#5A7348"/>
+                                    <path d="M17.1523 10.3745L22.1482 5.37867L23.4972 6.72767L18.5013 11.7235L17.1523 10.3745Z" fill="#5A7348"/>
+                                    <path d="M29.2444 22.4629L34.1471 17.3723L24.8967 8.12012L19.9004 13.117L29.2444 22.4629Z" fill="#5A7348"/>
+                                    <path d="M15.7606 8.97864L20.7569 3.98181L18.6656 1.89021C17.2883 0.512476 15.0469 0.512541 13.6695 1.89021C13.0023 2.55762 12.6348 3.44493 12.6348 4.38876C12.6348 5.33258 13.0023 6.21996 13.6695 6.8873L15.7606 8.97864Z" fill="#5A7348"/>
+                                    <path d="M4 34.4572H7.86407V31.4241H9.83578V34.4572H11.8077V31.4241H13.7795V34.4572H15.7514V31.4241H17.7231V34.4572H19.695V31.4241H21.6667V34.4572H23.6387V31.4241H25.6104V34.4572H27.5824V31.4241H29.5541V34.4572H37.5934L4 0.864258V34.4572ZM10.1846 15.6241L22.8496 28.3053H10.1846V15.6241Z" fill="#5A7348"/>
+                                    </g>
+                                    <defs>
+                                    <filter id="filter0_d" x="0" y="0.856934" width="41.5996" height="41.6003" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                    <feOffset dy="4"/>
+                                    <feGaussianBlur stdDeviation="2"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                    </filter>
+                                    </defs>
+                                    </svg>
+                            </p>
+                            <p class="slider__title">Дизайн-проект <br> Вашего участка</p>
+                        </div>
+                        <div class="slider__slide slider__slide-active">
+                            <p class="img__wr">
+                                <svg width="55" height="50" viewBox="0 0 55 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M39.9224 45.025C41.0505 26.9588 47.9 12.6864 47.9 12.6864C34.3384 20.3053 31.8657 39.0121 31.4277 46.6455C32.06 19.5043 40.2016 0 40.2016 0C24.2302 13.5839 22.9559 40.1845 22.9329 47.8543C22.6865 41.2128 20.7492 20.7459 6.4033 12.6864C6.4033 12.6864 13.7422 27.9781 14.478 46.9407C14.0701 41.8382 11.7443 31.7402 0 28.1813C0 28.1813 6.0975 35.4446 6.0975 49.971H48.078C48.078 35.4446 54.1755 28.1813 54.1755 28.1813C43.765 31.336 40.756 39.628 39.9224 45.025Z" fill="#5A7348"/>
+                                    </svg>
+                            </p>
+                            <p class="slider__title">Озеленение и  <br> благоустроуство</p>
+                        </div>
+                        <div class="slider__slide">
+                            <p class="img__wr">
+                                <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.291 15.4754C23.6153 15.3313 22.2367 14.1321 21.8261 12.5464H18.1836V22.14H24.929C25.3184 19.9869 25.4441 17.7248 25.291 15.4754Z" fill="#5A7348"/>
+                                    <path d="M25.6282 9.60156C24.5473 9.60156 23.668 10.4809 23.668 11.5618C23.668 12.6426 24.5473 13.522 25.6282 13.522C26.7091 13.522 27.5884 12.6426 27.5884 11.5618C27.5884 10.4809 26.709 9.60156 25.6282 9.60156Z" fill="#5A7348"/>
+                                    <path d="M8.67332 26.1494C10.3083 26.1494 11.6337 24.8239 11.6337 23.1889C11.6337 21.5539 10.3083 20.2285 8.67332 20.2285C7.03832 20.2285 5.71289 21.5539 5.71289 23.1889C5.71289 24.8239 7.03832 26.1494 8.67332 26.1494Z" fill="#5A7348"/>
+                                    <path d="M16.2138 0.542969C13.9668 2.087 12.1399 4.69036 10.8787 7.7048C10.4972 8.61666 10.1733 9.57938 9.9082 10.5775H16.2138V0.542969Z" fill="#5A7348"/>
+                                    <path d="M9.05843 18.2763C11.2433 18.4466 13.0323 20.0466 13.4879 22.14H16.213V12.5464H9.46958C9.13443 14.3999 8.99333 16.3376 9.05843 18.2763Z" fill="#5A7348"/>
+                                    <path d="M16.2141 34.143V24.1084H13.5151C13.2406 25.5564 12.3312 26.7817 11.0879 27.4835C12.317 30.2877 14.0351 32.6733 16.2141 34.143Z" fill="#5A7348"/>
+                                    <path d="M18.1836 34.143C20.5392 32.5263 22.426 29.7773 23.6915 26.5557C24.0002 25.7697 24.2671 24.9512 24.4914 24.1084H18.1836V34.143Z" fill="#5A7348"/>
+                                    <path d="M25.5238 27.276C24.5462 29.7647 23.2227 31.8798 21.6113 33.5567C26.5325 32.2206 30.5556 28.7046 32.58 24.1089H26.5217C26.2541 25.2034 25.9212 26.2643 25.5238 27.276Z" fill="#5A7348"/>
+                                    <path d="M8.67398 28.1178C6.27038 28.1178 4.26435 26.3882 3.83214 24.1084H1.81836C3.83496 28.6863 7.8347 32.193 12.73 33.5408C11.3012 32.0588 10.1224 30.2381 9.20463 28.0888C9.03019 28.1076 8.85327 28.1178 8.67398 28.1178Z" fill="#5A7348"/>
+                                    <path d="M27.241 15.1438C27.417 17.4965 27.3065 19.8689 26.9258 22.14H33.3027C33.7548 20.6198 33.9988 19.0101 33.9988 17.3431C33.9988 15.6762 33.7548 14.0665 33.3027 12.5464H29.4336C29.1332 13.7062 28.3146 14.6589 27.241 15.1438Z" fill="#5A7348"/>
+                                    <path d="M7.09793 18.5193C7.0184 16.5058 7.14781 14.4878 7.47338 12.5464H1.09453C0.642433 14.0665 0.398438 15.6762 0.398438 17.3431C0.398438 19.0101 0.642433 20.6198 1.09453 22.14H3.85755C4.22709 20.442 5.47397 19.0688 7.09793 18.5193Z" fill="#5A7348"/>
+                                    <path d="M25.6089 7.63352C25.6158 7.63346 25.6226 7.633 25.6295 7.633C27.4561 7.633 28.9955 8.88598 29.4336 10.5776H32.5796C30.5549 5.98147 26.5313 2.46513 21.6094 1.12939C21.9877 1.52341 22.3511 1.94184 22.6983 2.38514C23.879 3.89268 24.8559 5.65571 25.6089 7.63352Z" fill="#5A7348"/>
+                                    <path d="M18.1836 0.542969V10.5775H21.8261C22.0956 9.5366 22.7828 8.6626 23.6967 8.14357C22.7251 5.66313 21.0428 2.49683 18.1836 0.542969V0.542969Z" fill="#5A7348"/>
+                                    <path d="M9.06171 6.94463C10.0181 4.65863 11.277 2.70076 12.7871 1.12891C7.86503 2.46464 3.84115 5.98098 1.81641 10.5773H7.87612C8.18541 9.31075 8.58186 8.09156 9.06171 6.94463Z" fill="#5A7348"/>
+                                    </svg>
+
+                            </p>
+                            <p class="slider__title">Дистанционное <br> проектирование</p>
+                        </div>
+                    </div>
+                    <p class="slider__title">Озеленение <br> и благоустроуство</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="titles about__title">О нашей компании</h2>
+                <ul class="about__statistic statistic">
+                    <li class="statistic__item">
+                        <p class="statistic__counter">107</p>
+                        <p class="statistic__descr">Реализованных проектов</p>
+                    </li>
+                    <li class="statistic__item">
+                        <p class="statistic__counter">162</p>
+                        <p class="statistic__descr">Города и населенных пункта</p>
+                    </li>
+                    <li class="statistic__item">
+                        <p class="statistic__counter">95</p>
+                        <p class="statistic__descr">Наших проектов по всему миру</p>
+                    </li>
+                    <li class="statistic__item">
+                        <p class="statistic__counter">518</p>
+                        <p class="statistic__descr">Гектаров новых зеленых площадей</p>
+                    </li>
+                </ul>
+                <div class="about__descr descr">
+                    <h3 class="descr__title">
+                        <span>Студия</span> <br>
+                        <span>ландшафтного</span> <br>
+                        <span>дизайна</span>
+                    </h3>
+                    <p class="descr__text">
+                        Студия ландшафтного дизайна «АА» работает на белорусском рынке с 2009 года. Нашу команду составляют опытные специалисты, которые создают яркие и стильные дизайн-проекты частных участков по всему миру. Нашу команду составляют опытные специалисты с 2009 года.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="container">
+                <h2 class="titles titles--white works__title">Как мы работаем</h2>
+                <div class="works__wrapper">
+                    <ul class="works__counter-list">
+                        <li class="works__counter-item works__counter-item--active first">1</li>
+                        <li class="works__counter-item second">2</li>
+                        <li class="works__counter-item third">3</li>
+                        <li class="works__counter-item fourth">4</li>
+                    </ul>
+                    <ul class="works__content">
+                        <li class="works__content-wrapper works__content-wrapper--active">
+                            <h3 class="works__subtitle">Анализ <br> ситуации</h3>
+                            <p class="works__text">
+                                Мы с Вами подпишем договор и составим ТЗ. Соберем все необходимые данные, произведем фотофиксацию и топосъемку.
+                            </p>
+                        </li>
+                        <li class="works__content-wrapper">
+                            <h3 class="works__subtitle">Вступительная концепция</h3>
+                            <p class="works__text">
+                                Далее создадим на выбор 2 концепции  сада, а также составим побдорку предложенных материалов.
+                            </p>
+                        </li>
+                        <li class="works__content-wrapper">
+                            <h3 class="works__subtitle">Разработка проекта</h3>
+                            <p class="works__text">
+                                Детально проработаем выбранную концепцию и подготовим полный пакет рабочих чертежей со сметой.
+                            </p>
+                        </li>
+                        <li class="works__content-wrapper">
+                            <h3 class="works__subtitle">Реализация под ключ</h3>
+                            <p class="works__text">
+                                Шаг за шагом реализуем дизайн-проект Вашего участка. Подберем и доставим необходимые материалы,
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <h2 class="titles works__title">Реализованные проекты</h2>
+
+            </div>
+            <div class="projects__wrapper">
+                <div class="container">
+                    <ul class="tabs projects__tabs">
+                        <li data-filter="all" class="tabs__item tab tab--active">Все проекты</li>
+                        <li data-filter="taras" class="tabs__item tab">Террасы</li>
+                        <li data-filter="big" class="tabs__item tab">Большие участки</li>
+                        <li data-filter="smal" class="tabs__item tab">Маленькие участки</li>
+                        <li data-filter="pools" class="tabs__item tab">Бассейны и пруды</li>
+                    </ul>
+                </div>
+
+                <div class="projects__gallery gallery">
+                    <div class="gallery__wrapper">
+                        <p class="img__wrapper all big pools">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_1.webp 1x, ./img/content/gallery/galery_desc_1-2x.webp 2x" type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_1.jpg 1x, ./img/content/gallery/galery_desc_1-2x.jpg 2x">
+                                <img src="./img/content/gallery/galery_mob_1.jpg" srcset="./img/content/gallery/galery_mob_1-2x.jpg 2x" alt="galery img" class="gallery__img">
+                            </picture>
+                        </p>
+                        <p class="img__wrapper all big">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_2.webp 1x, ./img/content/gallery/galery_desc_2-2x.webp 2x" type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_2.jpg 1x, ./img/content/gallery/galery_desc_2-2x.jpg 2x">
+                                <img src="./img/content/gallery/galery_mob_2.jpg" srcset="./img/content/gallery/galery_mob_2-2x.jpg 2x" alt="galery img" class="gallery__img">
+                            </picture>
+                        </p>
+                        <p class="img__wrapper all smal">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_3.webp 1x, ./img/content/gallery/galery_desc_3-2x.webp 2x" type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_3.jpg 1x, ./img/content/gallery/galery_desc_3-2x.jpg 2x">
+                                <img src="./img/content/gallery/galery_mob_3.jpg" srcset="./img/content/gallery/galery_mob_3-2x.jpg 2x" alt="galery img" class="gallery__img">
+                            </picture>
+                        </p>
+                        <p class="img__wrapper all smal taras">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_4.webp 1x, ./img/content/gallery/galery_desc_4-2x.webp 2x" type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_4.jpg 1x, ./img/content/gallery/galery_desc_4-2x.jpg 2x">
+                                <img src="./img/content/gallery/galery_mob_4.jpg" srcset="./img/content/gallery/galery_mob_4-2x.jpg 2x" alt="galery img" class="gallery__img">
+                            </picture>
+                        </p>
+                        <p class="img__wrapper all taras">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_5.webp 1x, ./img/content/gallery/galery_desc_5-2x.webp 2x" type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_5.jpg 1x, ./img/content/gallery/galery_desc_5-2x.jpg 2x">
+                                <img src="./img/content/gallery/galery_mob_5.jpg" srcset="./img/content/gallery/galery_mob_5-2x.jpg 2x" alt="galery img" class="gallery__img">
+                            </picture>
+                        </p>
+                        <p class="img__wrapper all taras">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_6.webp 1x, ./img/content/gallery/galery_desc_6-2x.webp 2x" type="image/webp">
+                                <source media="(min-width: 1200px)" srcset="./img/content/gallery/galery_desc_6.jpg 1x, ./img/content/gallery/galery_desc_6-2x.jpg 2x">
+                                <img src="./img/content/gallery/galery_mob_6.jpg" srcset="./img/content/gallery/galery_mob_6-2x.jpg 2x" alt="galery img" class="gallery__img">
+                            </picture>
+                        </p>
+                    </div>
+                    <button class="gallery__button button">показать еще</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="price">
+            <h2 class="titles works__title">Стоимость проекта</h2>
+            <div class="container">
+                <p class="price__text text">
+                    Мы не считаем стоимость проекта исходя лишь из площади участка, мы оцениваем его <span>сложность</span> и <span>насыщенность.</span>
+                </p>
+                <ul class="price__list">
+                    <li class="price__item">От сложности и количества задач, которые необходимо решить </li>
+                    <li class="price__item">От наличия дорогостоящих
+                        в реализации элементов </li>
+                    <li class="price__item">От особенностей строения
+                        рельефа и размеров участка </li>
+                    <li class="price__item">От наличия необходимых в разработке малых архитектурных форм</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="distance">
+            <h2 class="titles works__title">Дистанционное проектирование</h2>
+            <div class="container">
+                <p class="distance__text text">
+                    Вы можете заказать дизайн-проект своего участка находясь в любой точке земного шара не выходя из дома. Для этого Вам нужно всего лишь связаться с нами. Мы подскажем какие данные для этого необходимы и начнем наше сотрудничество.
+                </p>
+            </div>
+            <div class="slider distance__slider">
+                <div class="slider__inner container">
+                    <div class="slider__slide">
+                        <h3 class="slide__title">Исходные <br> данные</h3>
+                        <div class="slide__text">
+                            Свяжитесь с нами и
+                            вышлите всю необходимую
+                            информацию через e-mail.
+                            С помощью онлайн-консультации
+                            мы проведем интервью для сбора
+                            максимального количества
+                            информаци.
+                        </div>
+                    </div>
+                    <div class="slider__slide slider__slide--active">
+                        <h3 class="slide__title">Работа над <br> проектом</h3>
+                        <div class="slide__text">
+                            После внесения аванса, мы предложим 1-2 эскиза,
+                            согласуем с Вами, сформируем
+                            окончательный вариант
+                            планировки, разработаем
+                            инженерную и декоративную
+                            часть проекта.
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <h3 class="slide__title">Утверждение <br> и отправка</h3>
+                        <div class="slide__text">
+                            После утверждения и внесения
+                            второй части оплаты, мы
+                            отправим Вам проект по e-mail,  а также в распечатаном виде по почте. При дальнейшей самостоятельной реализации проекта, действует ряд бесплатных консультаций.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <ul class="dots">
+                <li class="dot dot-active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+            </ul>
+        </section>
+
+        <section class="contact container">
+            <h2 class="titles titles--white works__title">Свяжитесь с нами</h2>
+            <form action="#" class="form contact__form">
+                <input type="text" name="mail" placeholder="Е-mail">
+                <input type="text" name="name" placeholder="Имя и фамилия">
+                <textarea name="message" placeholder="Сообщение"></textarea>
+                <button class="button button--white form__button">отправить</button>
+            </form>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <li class="footer__item footer__item--phone"><a href="tel:#">+375 29 885 74 21</a></li>
+                <li class="footer__item footer__item--mail"><a href="mailto:#">aa.studio@gmail.com</a></li>
+                <li class="footer__item footer__item--location">ул. Держинского 14/2 <br>
+                    г. Минск</li>
+            </ul>
+            <div class="footer__wrapper">
+                <ul class="footer__social social">
+                    <li class="social__item"><a href="#" class="social__link"><img src="./img/icons/youtube.png" alt="youtube link"></a></li>
+                    <li class="social__item"><a href="#" class="social__link"><img src="./img/icons/instagram.png" alt="instagram link"></a></li>
+                    <li class="social__item"><a href="#" class="social__link"><img src="./img/icons/facebook.png" alt="facebook link"></a></li>
+                </ul>
+                <p class="author">Anna Arechwa</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

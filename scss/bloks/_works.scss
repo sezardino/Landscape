@@ -1,0 +1,112 @@
+.works {
+  padding: 81px 0;
+  background-color: $green;
+  color: $white;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  &__counter-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 41px;
+    height: 41px;
+    border-radius: 100%;
+    border: 1px solid $white;
+
+    font-weight: 900;
+    font-size: 14px;
+
+    margin-bottom: 19px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &--active {
+      background-color: $white;
+      color: $green;
+    }
+  }
+  &__subtitle {
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+  }
+  &__text {
+    margin-top: 20px;
+
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 3px;
+  }
+  &__content {
+    &-wrapper {
+      display: none;
+      width: 198px;
+      &--active {
+        display: block;
+      }
+    }
+  }
+}
+
+@media(min-width: $decstop-width) {
+  .works {
+    padding: 162px 0;
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-top: 140px;
+    }
+    &__counter-list {
+      display: flex;
+      justify-content: space-around;
+    }
+    &__counter-item {
+      width: 63px;
+      height: 63px;
+      font-size: 20px;
+      margin-left: 0;
+      cursor: pointer;
+      &:hover {
+        background-color: $white;
+        color: $green;
+      }
+    }
+    &__content {
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      cursor: pointer;
+      &-wrapper {
+        display: block;
+        width: 255px;
+        opacity: 0.2;
+        .works {
+          &__subtitle {
+            font-size: 23px;
+            line-height: 30px;
+            letter-spacing: 3px;
+          }
+          &__text {
+            margin-top: 32px;
+
+            line-height: 26px;
+            letter-spacing: 1px;
+          }
+        }
+
+        &--active {
+          display: block;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

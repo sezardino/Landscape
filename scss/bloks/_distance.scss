@@ -1,0 +1,35 @@
+.distance {
+  padding-top: 40px;
+  padding-bottom: 55px;
+  &__text {
+    margin-top: 50px;
+
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+    color: $black;
+    line-height: 23px;
+    letter-spacing: 2px;
+  }
+  &__slider {
+    margin-top: 55px;
+  }
+}
+
+@media(min-width:$decstop-width) {
+  .distance {
+    padding-top: 90px;
+    padding-bottom: 120px;
+    &__text {
+      max-width: 697px;
+      margin: 0 auto;
+      margin-top: 120px;
+
+      font-size: 14px;
+      line-height: 30px;
+    }
+    &__slider {
+      margin-top: 90px;
+    }
+  }
+}

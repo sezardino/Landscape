@@ -1,0 +1,30 @@
+.button {
+  width: 184px;
+  height: 50px;
+  background-color: $green;
+  border-radius: 63px;
+  border: none;
+  box-shadow: 1px 5px 2px 0px rgba($black, 0.4);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 9px;
+  color: $white;
+  &--white {
+    background-color: $white;
+    color: $green;
+  }
+}
+
+@media(min-width: $decstop-width) {
+  .button {
+    width: 260px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+
+}
